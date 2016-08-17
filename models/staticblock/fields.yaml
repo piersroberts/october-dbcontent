@@ -1,0 +1,8 @@
+fields:
+  key:
+    label: Key
+    type: text
+  content:
+    label: Content
+    type: richeditor
+    size: giant

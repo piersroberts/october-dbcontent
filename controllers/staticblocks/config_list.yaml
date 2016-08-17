@@ -1,0 +1,6 @@
+title: Static blocks
+list: $/buzzwordcompliant/dbcontent/models/staticblock/columns.yaml
+modelClass: BuzzwordCompliant\DBContent\Models\StaticBlock
+recordUrl: buzzwordcompliant/dbcontent/staticblocks/update/:id
+toolbar:
+    buttons: list_toolbar

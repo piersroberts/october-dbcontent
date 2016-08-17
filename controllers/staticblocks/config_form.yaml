@@ -1,0 +1,13 @@
+name: Static Block
+form: $/buzzwordcompliant/dbcontent/models/staticblock/fields.yaml
+modelClass: BuzzwordCompliant\DBContent\Models\StaticBlock
+
+create:
+    title: New static block
+    redirect: buzzwordcompliant/dbcontent/staticblocks
+    redirectClose: buzzwordcompliant/dbcontent/staticblocks
+
+update:
+    title: Edit static block
+    redirect: buzzwordcompliant/dbcontent/staticblocks
+    redirectClose: buzzwordcompliant/dbcontent/staticblocks

@@ -1,0 +1,10 @@
+columns:
+  key:
+    label: Key
+    cssClass: bc_monospace
+  lnegth:
+    label: Content length
+    select: CHAR_LENGTH(content)
+  updated_at:
+      label: Last modified
+      type: timesince
