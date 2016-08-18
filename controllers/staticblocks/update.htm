@@ -6,6 +6,7 @@
 
 <div class="form-buttons">
     <div class="loading-indicator-container">
+        <?php if ($this->user->hasAccess('buzzwordcompliant.dbcontent.edit_static_block')): ?>
         <button
                 type="button"
                 data-request="onSave"
@@ -15,6 +16,10 @@
                 class="btn btn-default">
             Save and Close
         </button>
+        <?php endif; ?>
+
+        <?php if ($this->user->hasAccess('buzzwordcompliant.dbcontent.edit_static_block') &&
+        $this->user->hasAccess('buzzwordcompliant.dbcontent.delete_static_block')): ?>
         <button
                 type="button"
                 class="oc-icon-trash-o btn-icon danger pull-right"
@@ -22,9 +27,11 @@
                 data-load-indicator="Deleting static block..."
                 data-request-confirm="Do you really want to delete this block?">
         </button>
+        <?php endif; ?>
+
         <span class="btn-text">
-                or <a href="<?= Backend::url('buzzwordcompliant/dbcontent/staticblocks') ?>">Cancel</a>
-            </span>
+                <a href="<?= Backend::url('buzzwordcompliant/dbcontent/staticblocks') ?>">Back to list</a>
+        </span>
     </div>
 </div>
 

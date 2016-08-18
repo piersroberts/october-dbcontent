@@ -1,3 +1,5 @@
 1.0.0:
     - Create initial table
     - create_staticblocks_table.php
+1.1.0:
+    - Locked down various actions with permissions

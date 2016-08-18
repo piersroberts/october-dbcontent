@@ -1,5 +1,8 @@
 <div data-control="toolbar">
+    <?php if ($this->user->hasAccess('buzzwordcompliant.dbcontent.edit_static_block') &&
+    $this->user->hasAccess('buzzwordcompliant.dbcontent.new_static_block')): ?>
     <a
             href="<?= Backend::url('buzzwordcompliant/dbcontent/staticblocks/create') ?>"
             class="btn btn-primary oc-icon-plus">New static block</a>
+    <?php endif; ?>
 </div>
