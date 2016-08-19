@@ -3,7 +3,7 @@ namespace BuzzwordCompliant\DBContent\Controllers;
 
 use Backend\Facades\BackendMenu;
 
-class Staticblocks extends \Backend\Classes\Controller
+class StaticBlocks extends \Backend\Classes\Controller
 {
     public function __construct()
     {
