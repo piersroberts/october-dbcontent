@@ -2,6 +2,9 @@ fields:
   key:
     label: Key
     type: text
+  description:
+    label: Description
+    type: text
   content:
     label: Content
     type: richeditor

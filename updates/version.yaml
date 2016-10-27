@@ -3,3 +3,6 @@
     - create_staticblocks_table.php
 1.1.0:
     - Locked down various actions with permissions
+1.1.1:
+    - Add description field
+    - add_description.php

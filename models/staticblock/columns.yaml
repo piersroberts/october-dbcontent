@@ -2,9 +2,11 @@ columns:
   key:
     label: Key
     cssClass: bc_monospace
-  lnegth:
+  description:
+    label: Description
+  length:
     label: Content length
     select: CHAR_LENGTH(content)
   updated_at:
-      label: Last modified
-      type: timesince
+    label: Last modified
+    type: timesince
